@@ -1,0 +1,22 @@
+{
+  "name": "audacity",
+  "version": "1.0.0",
+  "description": "Audacity is a platform where users can register and request for loans. This loans can be granted based on the users transaction histories. The app is able to calculate the users capability of of paying back any loan they request. If the user is eligible, the loan can be granted or a suggestion of the amount he can borrow can be made to him",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshualine/Audacity.git"
+  },
+  "author": "Team Audacity HackFest Hackathon 2021",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshualine/Audacity/issues"
+  },
+  "homepage": "https://github.com/joshualine/Audacity#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
