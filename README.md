@@ -1,0 +1,2 @@
+Audacity is a platform where users can register and request for loans. This loans can be granted based on the users transaction histories.
+The app is able to calculate the users capability of of paying back any loan they request. If the user is eligible, the loan can be granted or a suggestion of the amount he can borrow can be made to him
