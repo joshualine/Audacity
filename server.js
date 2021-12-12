@@ -3,8 +3,7 @@ const dotenv = require('dotenv');
 const connectDB = require('./configs/mongodb.config');
 
 // Importing routes
-// const userRoutes = require('./routes/user.routes')  //user routes
-// const depositRoutes = require('./routes/deposit.routes'); //deposit routes
+const userRoutes = require('./routes/user.routes')  //user routes
 
 
 
@@ -15,6 +14,9 @@ const app = express();
 
 // Middlewares
 app.use(express.json());
+
+// Usiordersng routes
+app.use('/api/users', userRoutes);
 
 
 
